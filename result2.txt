@@ -1,0 +1,14 @@
+ProK  
+	PheadK  ['p']
+	TypeK  
+		DecK  IntegerK  ['t']
+	VarK  
+		DecK  IdK  ['t', 'v1']
+		DecK  CharK  ['v2']
+	StmLK  
+		StmtK  ReadK  ['v1']
+		StmtK  AssignK  			ExpK  IdEK  ['v1']
+			ExpK  OpK  ['*']
+				ExpK  IdEK  ['v1']
+				ExpK  ConstK  ['10']
+		StmtK  WriteK  			ExpK  IdEK  ['v1']
